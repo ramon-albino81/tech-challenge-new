@@ -1,0 +1,47 @@
+{
+	"version": 1,
+	"skills": {
+		"clean-architecture": {
+			"source": "wondelai/skills",
+			"sourceType": "github",
+			"skillPath": "clean-architecture/SKILL.md",
+			"computedHash": "91e3c122b6951e485b4eca773472708fc08b9bbb68247aa9c75c975df380630c"
+		},
+		"conventional-commits": {
+			"source": "patricio0312rev/skills",
+			"sourceType": "github",
+			"skillPath": "foundation/conventional-commits/SKILL.md",
+			"computedHash": "1a9b826315006b8bf32126c8391f7f11e8ed090b8506f029ccca165cb4f438dc"
+		},
+		"java-springboot": {
+			"source": "github/awesome-copilot",
+			"sourceType": "github",
+			"skillPath": "skills/java-springboot/SKILL.md",
+			"computedHash": "108cb49f1d7950889b6223e5810266f1ff38bf62a0d52d932f6edc607a0ddfbf"
+		},
+		"multi-stage-dockerfile": {
+			"source": "github/awesome-copilot",
+			"sourceType": "github",
+			"skillPath": "skills/multi-stage-dockerfile/SKILL.md",
+			"computedHash": "698bf93a84dae18fd7bd0b1d35c21427307fde78fbdf4624be9726f5f98189ca"
+		},
+		"mysql": {
+			"source": "planetscale/database-skills",
+			"sourceType": "github",
+			"skillPath": "skills/mysql/SKILL.md",
+			"computedHash": "6cb0725d61db4940f9eab79436753fe4ecb261f57ae8a08b2ac28676f82cbecc"
+		},
+		"solid-principles": {
+			"source": "thebushidocollective/han",
+			"sourceType": "github",
+			"skillPath": "plugins/core/skills/solid-principles/SKILL.md",
+			"computedHash": "302fc51ca42b1a002d100f4a344c5ffeeb7a46afb1bd54cf1c18ada7cb932577"
+		},
+		"swagger-doc-creator": {
+			"source": "jeremylongshore/tons-of-skills-marketplace",
+			"sourceType": "github",
+			"skillPath": "skills/15-api-development/swagger-doc-creator/SKILL.md",
+			"computedHash": "1247f01881560bc464aad7cb6612aded95062c15411e3f73c9985aac53efc7e3"
+		}
+	}
+}
