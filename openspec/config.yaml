@@ -38,7 +38,7 @@ operations:
             - Não incluir segredos, credenciais reais ou arquivos de ambiente local em alterações.
             - Não adicionar comentários ao código, incluindo comentários de linha, bloco, multilinha ou Javadoc; em configuração, comentar somente quando estritamente necessário.
             - Depois de abrir um PR de etapa, aguardar autorização humana expressa antes de iniciar uma nova etapa; alterações solicitadas no PR atual continuam na etapa em andamento.
-            - Usar o GitHub CLI (gh) para operações remotas: gh pr create, gh pr list, gh pr diff, gh pr merge e gh repo view; manter git para operações locais (commit, branch, log, shortlog).
+            - "Usar o GitHub CLI (gh) para operações remotas: gh pr create, gh pr list, gh pr diff, gh pr merge e gh repo view; manter git para operações locais (commit, branch, log, shortlog)."
             - Antes de tarefas que interajam com o GitHub, verificar autenticação com gh auth status e existência do repositório com gh repo view.
     archive:
         guidance:
