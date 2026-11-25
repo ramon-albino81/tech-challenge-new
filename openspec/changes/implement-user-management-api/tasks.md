@@ -14,8 +14,8 @@
 
 ## 2. Fundação e estrutura do repositório
 
-- [ ] 2.1 Aplicar `/java-springboot`; adicionar dependências de Spring MVC, validação, Spring Security resource server/JWT, Spring Data JPA, MySQL Connector/J, suporte Flyway para MySQL, springdoc, JUnit, Mockito e Testcontainers; verificar `./mvnw dependency:resolve`.
-- [ ] 2.2 Aplicar `/java-springboot`; criar e manter a estrutura sugerida `src/`, `postman/collection.json`, `postman/environment.json`, `docs/`, `Dockerfile`, `docker-compose.yml`, `.env.example`, `.gitignore` e `README.md`; verificar a presença dos caminhos e que arquivos sensíveis/build, incluindo `.env`, `target/` e `.idea/`, estão ignorados.
+- [x] 2.1 Aplicar `/java-springboot`; adicionar dependências de Spring MVC, validação, Spring Security resource server/JWT, Spring Data JPA, MySQL Connector/J, suporte Flyway para MySQL, springdoc, JUnit, Mockito e Testcontainers; verificar `./mvnw dependency:resolve`.
+- [x] 2.2 Aplicar `/java-springboot`; criar e manter a estrutura sugerida `src/`, `postman/collection.json`, `postman/environment.json`, `docs/`, `Dockerfile`, `docker-compose.yml`, `.env.example`, `.gitignore` e `README.md`; verificar a presença dos caminhos e que arquivos sensíveis/build, incluindo `.env`, `target/` e `.idea/`, estão ignorados.
 
 ## 3. Modelo de domínio, esquema e casos de uso
 
