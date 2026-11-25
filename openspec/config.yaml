@@ -1,0 +1,46 @@
+schema: spec-driven
+
+context: |
+    Projeto individual do Tech Challenge FIAP Fase 1: API de gerenciamento de usuários.
+    Stack definida: Java 21, Spring Boot 3.x, Maven Wrapper, MySQL 8.4/InnoDB,
+    Flyway, Spring Security com JWT e Nimbus, BCrypt, OpenAPI/Swagger, Postman,
+    Docker multi-stage e Docker Compose.
+    Organizar como monólito modular, mantendo domínio e casos de uso independentes
+    dos frameworks e da persistência. A API é versionada em /api/v1 e padroniza
+    erros com ProblemDetail compatível com RFC 7807.
+    O modelo inclui DONO_RESTAURANTE e CLIENTE; o endereço é armazenado em coluna
+    MySQL JSON com street, number, city e postal_code. Não há cadastro público.
+    Os artefatos e a documentação do projeto devem ser escritos em português do
+    Brasil. Decisões detalhadas e requisitos da implementação estão na change
+    implement-user-management-api. Não adicionar comentários a código de produção,
+    testes, scripts ou migrações; comentários em arquivos de configuração só são
+    permitidos quando estritamente necessários para esclarecer configuração não óbvia.
+
+rules:
+    proposal:
+        - Escrever em português do Brasil e relacionar motivação, escopo, capacidades e impacto aos critérios do Tech Challenge.
+        - Distinguir claramente funcionalidades incluídas e fora de escopo.
+    specs:
+        - Escrever requisitos e cenários em português do Brasil, usando SHALL/SHALL NOT para obrigações e WHEN/THEN para cenários.
+        - Definir comportamento observável e critérios verificáveis; evitar prescrever detalhes internos sem necessidade.
+    design:
+        - Registrar decisões confirmadas, alternativas relevantes, trade-offs, segurança, persistência, testes, documentação e entrega.
+        - Manter coerência com Java 21, Spring Boot 3.x, MySQL 8.4, JWT e as demais decisões vigentes do projeto.
+    tasks:
+        - Escrever tarefas em português do Brasil, pequenas o bastante para serem executadas e verificadas, cobrindo implementação, testes e entregáveis aplicáveis.
+        - Indicar skills obrigatórias pertinentes em cada tarefa; não inventar duração ou critérios sem base nos requisitos.
+
+operations:
+    apply:
+        guidance:
+            - Antes de cada tarefa, consultar AGENTS.md e carregar as skills obrigatórias pertinentes ao escopo.
+            - Implementar conforme a change ativa, executar a menor validação relevante e marcar uma tarefa concluída somente com evidência de verificação.
+            - Não incluir segredos, credenciais reais ou arquivos de ambiente local em alterações.
+            - Não adicionar comentários ao código, incluindo comentários de linha, bloco, multilinha ou Javadoc; em configuração, comentar somente quando estritamente necessário.
+            - Depois de abrir um PR de etapa, aguardar autorização humana expressa antes de iniciar uma nova etapa; alterações solicitadas no PR atual continuam na etapa em andamento.
+            - Usar o GitHub CLI (gh) para operações remotas: gh pr create, gh pr list, gh pr diff, gh pr merge e gh repo view; manter git para operações locais (commit, branch, log, shortlog).
+            - Antes de tarefas que interajam com o GitHub, verificar autenticação com gh auth status e existência do repositório com gh repo view.
+    archive:
+        guidance:
+            - Antes de arquivar, confirmar que os requisitos e tarefas da change foram implementados e verificados, e validar os artefatos OpenSpec.
+            - O PR final de feature/tech-challenge para main ocorre somente após o arquivamento das changes relacionadas, conforme o fluxo Git documentado em AGENTS.md.
